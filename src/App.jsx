@@ -133,32 +133,28 @@ function App() {
       <section id="contact" className="contact">
         <div className="container">
           <h2>Want to Work with Us?</h2>
-          <div className="contact-grid">
-            <div className="address-card">
-              <div className="contact-btn-large address-btn">
-                <MapPin size={24} />
-                <div>
-                  <h4>We're Located At</h4>
-                  <p>24121 W Theodore Street<br />Unit 2A<br />Plainfield, IL 60586</p>
-                </div>
+          <div className="contact-cards">
+            <div className="contact-btn-large address-btn">
+              <MapPin size={24} />
+              <div>
+                <h4>We're Located At</h4>
+                <p>24121 W Theodore Street<br />Unit 2A<br />Plainfield, IL 60586</p>
               </div>
             </div>
-            <div className="contact-buttons">
-              <a href="mailto:cole@dlbsolutionsinc.com" className="contact-btn-large email-btn">
-                <Mail size={24} />
-                <div>
-                  <h4>Email Us</h4>
-                  <p>cole@dlbsolutionsinc.com</p>
-                </div>
-              </a>
-              <a href="tel:888-280-9352" className="contact-btn-large call-btn">
-                <Phone size={24} />
-                <div>
-                  <h4>Call Us</h4>
-                  <p>(888) 280-9352</p>
-                </div>
-              </a>
-            </div>
+            <a href="mailto:cole@dlbsolutionsinc.com" className="contact-btn-large email-btn">
+              <Mail size={24} />
+              <div>
+                <h4>Email Us</h4>
+                <p>cole@dlbsolutionsinc.com</p>
+              </div>
+            </a>
+            <a href="tel:888-280-9352" className="contact-btn-large call-btn">
+              <Phone size={24} />
+              <div>
+                <h4>Call Us</h4>
+                <p>(888) 280-9352</p>
+              </div>
+            </a>
           </div>
         </div>
       </section>
