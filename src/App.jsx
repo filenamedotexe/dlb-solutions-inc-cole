@@ -8,9 +8,7 @@ function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const toggleMenu = () => {
-    console.log('Menu clicked, current state:', isMenuOpen);
     setIsMenuOpen(!isMenuOpen);
-    console.log('Menu state changed to:', !isMenuOpen);
   };
 
   const closeMenu = () => {
@@ -118,7 +116,7 @@ function App() {
               </p>
               <div className="about-cta">
                 <p><strong>Ready to discuss your project?</strong></p>
-                <p>Fill out our contact form below and we'll provide you with a detailed quote tailored to your business needs.</p>
+                <p>Send us an email or give us a call and we'll provide you with a detailed quote tailored to your business needs.</p>
                 <a href="#contact" className="btn-primary">Get Your Quote</a>
               </div>
             </div>
@@ -133,6 +131,7 @@ function App() {
       <section id="contact" className="contact">
         <div className="container">
           <h2>Want to Work with Us?</h2>
+          <p className="contact-subtitle">Send us an email, or give us a call!</p>
           <div className="contact-cards">
             <div className="contact-btn-large address-btn">
               <MapPin size={24} />
