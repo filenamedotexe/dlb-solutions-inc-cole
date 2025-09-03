@@ -361,43 +361,6 @@ body {
   gap: 4rem;
 }
 
-.contact-info {
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-}
-
-.contact-item {
-  display: flex;
-  gap: 1rem;
-  align-items: flex-start;
-}
-
-.contact-item svg {
-  color: #1a1a1a;
-  margin-top: 0.25rem;
-}
-
-.contact-item h4 {
-  font-size: 1.125rem;
-  margin-bottom: 0.5rem;
-  color: #1a1a1a;
-}
-
-.contact-item p {
-  color: #666;
-  line-height: 1.6;
-}
-
-.contact-item p a {
-  color: #666;
-  text-decoration: none;
-  transition: color 0.3s;
-}
-
-.contact-item p a:hover {
-  color: #1a1a1a;
-}
 
 .contact-form {
   display: flex;
@@ -498,6 +461,30 @@ body {
 
 .call-btn:hover svg {
   color: #16a34a;
+}
+
+.address-card {
+  display: flex;
+  justify-content: center;
+}
+
+.address-btn {
+  cursor: default;
+  background: #f8f9fa;
+  border-color: #ddd;
+}
+
+.address-btn:hover {
+  border-color: #999;
+  transform: none;
+}
+
+.address-btn svg {
+  color: #dc2626;
+}
+
+.address-btn:hover svg {
+  color: #dc2626;
 }
 
 /* Footer */
@@ -657,15 +644,7 @@ body {
 
   .contact-grid {
     grid-template-columns: 1fr;
-    gap: 3rem;
-  }
-
-  .contact-item {
-    gap: 1rem;
-  }
-
-  .contact-form {
-    padding: 1.5rem;
+    gap: 2rem;
   }
 
   .footer {

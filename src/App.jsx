@@ -134,26 +134,12 @@ function App() {
         <div className="container">
           <h2>Want to Work with Us?</h2>
           <div className="contact-grid">
-            <div className="contact-info">
-              <div className="contact-item">
+            <div className="address-card">
+              <div className="contact-btn-large address-btn">
                 <MapPin size={24} />
                 <div>
-                  <h4>Address</h4>
+                  <h4>Visit Us</h4>
                   <p>24121 W Theodore Street<br />Unit 2A<br />Plainfield, IL 60586</p>
-                </div>
-              </div>
-              <div className="contact-item">
-                <Phone size={24} />
-                <div>
-                  <h4>Phone</h4>
-                  <p>(888) 280-9352</p>
-                </div>
-              </div>
-              <div className="contact-item">
-                <Mail size={24} />
-                <div>
-                  <h4>Email</h4>
-                  <p><a href="mailto:cole@dlbsolutionsinc.com">cole@dlbsolutionsinc.com</a></p>
                 </div>
               </div>
             </div>
