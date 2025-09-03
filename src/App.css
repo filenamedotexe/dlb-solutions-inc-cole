@@ -470,21 +470,22 @@ body {
 
 .address-btn {
   cursor: default;
-  background: #f8f9fa;
-  border-color: #ddd;
+  background: white;
+  border-color: #eee;
 }
 
 .address-btn:hover {
-  border-color: #999;
+  border-color: #ccc;
   transform: none;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 }
 
 .address-btn svg {
-  color: #dc2626;
+  color: #666;
 }
 
 .address-btn:hover svg {
-  color: #dc2626;
+  color: #666;
 }
 
 /* Footer */
