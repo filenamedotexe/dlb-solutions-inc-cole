@@ -440,6 +440,66 @@ body {
   background: #333;
 }
 
+.contact-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.contact-btn-large {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.5rem 2rem;
+  background: white;
+  border: 2px solid #eee;
+  border-radius: 12px;
+  text-decoration: none;
+  color: #333;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.contact-btn-large:hover {
+  border-color: #000;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px);
+}
+
+.contact-btn-large svg {
+  color: #000;
+}
+
+.contact-btn-large h4 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+  color: #1a1a1a;
+}
+
+.contact-btn-large p {
+  font-size: 0.95rem;
+  color: #666;
+  margin: 0;
+  font-weight: 500;
+}
+
+.email-btn:hover {
+  border-color: #2563eb;
+}
+
+.email-btn:hover svg {
+  color: #2563eb;
+}
+
+.call-btn:hover {
+  border-color: #16a34a;
+}
+
+.call-btn:hover svg {
+  color: #16a34a;
+}
+
 /* Footer */
 .footer {
   background: #1a1a1a;

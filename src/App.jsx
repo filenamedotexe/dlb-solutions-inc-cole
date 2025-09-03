@@ -153,17 +153,26 @@ function App() {
                 <Mail size={24} />
                 <div>
                   <h4>Email</h4>
-                  <p><a href="mailto:cole@dlbsolutions.com">cole@dlbsolutions.com</a></p>
+                  <p><a href="mailto:cole@dlbsolutionsinc.com">cole@dlbsolutionsinc.com</a></p>
                 </div>
               </div>
             </div>
-            <form className="contact-form">
-              <input type="text" placeholder="Name" required />
-              <input type="email" placeholder="Email" required />
-              <input type="text" placeholder="Company" />
-              <textarea placeholder="Message" rows="4" required></textarea>
-              <button type="submit" className="btn-primary">Send Message</button>
-            </form>
+            <div className="contact-buttons">
+              <a href="mailto:cole@dlbsolutionsinc.com" className="contact-btn-large email-btn">
+                <Mail size={24} />
+                <div>
+                  <h4>Email Us</h4>
+                  <p>cole@dlbsolutionsinc.com</p>
+                </div>
+              </a>
+              <a href="tel:888-280-9352" className="contact-btn-large call-btn">
+                <Phone size={24} />
+                <div>
+                  <h4>Call Us</h4>
+                  <p>(888) 280-9352</p>
+                </div>
+              </a>
+            </div>
           </div>
         </div>
       </section>
@@ -188,6 +197,7 @@ function App() {
               <h4>Contact</h4>
               <p>24121 W Theodore Street, Unit 2A<br />Plainfield, IL 60586</p>
               <p><a href="tel:888-280-9352">(888) 280-9352</a></p>
+              <p><a href="mailto:cole@dlbsolutionsinc.com">cole@dlbsolutionsinc.com</a></p>
             </div>
           </div>
           <div className="footer-bottom">
